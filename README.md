@@ -15,23 +15,23 @@ Format and mount
 -----------------
 Assuming you have this when run fdisk
 
-#fdisk -l:
-
+	fdisk -l:
+	----------------------
 Device			Size	Type
 /dev/sdb1	209.7 MB	boot
 /dev/sdb3	45.0 GB 	Linux filesystem
 
 
-	Formatting partitions
-	----------------------
-mkfs.fat -F32 /dev/sdb1
-mkfs.ext4 /dev/sdb3
+Formatting partitions
 
-	Mounting
-	--------
-mount /dev/<rootpartition> /mnt
-mkdir /mnt/boot
-mount /dev/<appleEFIpartition> /mnt/boot
+	mkfs.fat -F32 /dev/sdb1
+	mkfs.ext4 /dev/sdb3
+
+Mounting
+
+	mount /dev/<rootpartition> /mnt
+	mkdir /mnt/boot
+	mount /dev/<appleEFIpartition> /mnt/boot
 
 Base Install
 ------------
