@@ -36,4 +36,7 @@ Mounting
 Base Install
 ------------
 This will install the base Arch Linux packages.
-#pacstrap -i /mnt/ base
+
+	pacstrap -i /mnt/ base basedevel linux linux-firmware mkinitcpio
+
+
