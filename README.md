@@ -1,41 +1,12 @@
-# arch-on-mbp9-2
-install arch on mbp9,2 triple booting
+Arch Linux on a MacBook Pro 9.2
+================================
 
-![Screen Shot 2023-10-04 at 16 13 37](https://github.com/sardude/arch-on-mbp9-2/assets/9292055/68b43de2-a441-4de7-8e9c-60aaae41b66d)
+gathered information and installed Arch on a MacBook:
 
+Some boot keycodes:
+Hold alt while booting to display the startup manager (you can select your boot device here).
+Hold ctrl while selecting a boot device (choose your EFI partition) to permanently boot from that one.
+Hold cmd+R while starting to start a recovery. If you have a OS X recovery partition, this is a recovery wizard (restore from time machine, reinstall OS X, disk utility). If you don’t, it starts a complete internet recovery ((almost?) restore factory defaults). It even restores your EFI NVRAM thingy, I think.
 
-Installation
-============
-
-Internet
----------
-# ping -c 3 -4 archlinux.org
-
-Format and mount
------------------
-Assuming you have this when run fdisk
-
-	fdisk -l:
-	----------------------
-Device			Size	Type
-/dev/sdb1	209.7 MB	boot
-/dev/sdb3	45.0 GB 	Linux filesystem
-
-
-Formatting partitions
-
-	mkfs.fat -F32 /dev/sdb1
-	mkfs.ext4 /dev/sdb3
-
-Mounting
-
-	mount /dev/<rootpartition> /mnt
-	mkdir /mnt/boot
-	mount /dev/<appleEFIpartition> /mnt/boot
-
-Base Install
-------------
-This will install the base Arch Linux packages.
-#pacstrap -i /mnt/ base
 
 
