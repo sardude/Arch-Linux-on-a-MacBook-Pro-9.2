@@ -9,7 +9,16 @@ Installation
 
 Internet
 ---------
-# ping -c 3 -4 archlinux.org
+Wireless
+Wireless does not work out of the box. Install broadcom-wl or b43-firmwareAUR
+	# rmmod b43 bcma ssb wl
+	# modprobe wl
+	# ip link set wlan0 down
+	# ip link set wlan0 up
+
+	iwctl --passphrase passphrase station device connect SSID
+
+	ping -c 3 -4 archlinux.org
 
 Format and mount
 -----------------
