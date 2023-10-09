@@ -50,6 +50,9 @@ gathered information and installed Arch on a MacBook:
     - [Fixing lid closing to suspend](#fixing-lid-closing-to-suspend)
     - [Power saving for Intel chip](#power-saving-for-intel-chip)
 
+# Install arch triple boot
+
+## Make space for Arch
 
 Some boot keycodes:
 -------------------
