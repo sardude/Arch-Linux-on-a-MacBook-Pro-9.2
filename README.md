@@ -52,6 +52,33 @@ gathered information and installed Arch on a MacBook:
 
 
 # Before you start
+from macbookpro; open terminal
+
+➜ diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI NO NAME                 209.7 MB   disk0s1
+   2:       Microsoft Basic Data darkstar                454.9 GB   disk0s2
+   3:           Linux Filesystem                         45.0 GB    disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         184.0 GB   disk1s2
+   3:       Microsoft Basic Data OS                      65.8 GB    disk1s3
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +184.0 GB   disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume MacOS - Data            140.0 GB   disk2s1
+   2:                APFS Volume Preboot                 28.5 MB    disk2s2
+   3:                APFS Volume Recovery                526.8 MB   disk2s3
+   4:                APFS Volume VM                      1.1 GB     disk2s4
+   5:                APFS Volume MacOS                   11.3 GB    disk2s5
+
 
 It's seem [Macbook with T2 Security](https://support.apple.com/en-us/HT208862) isn't support linux very well, view this [discussions](https://discussions.apple.com/thread/251087440?answerId=252062188022#252062188022)
 
