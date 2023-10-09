@@ -1,7 +1,55 @@
 Arch Linux on a MacBook Pro 9.2
-================================
+===============================
+
+- :ballot_box_with_check: display
+- :ballot_box_with_check: audio
+- :ballot_box_with_check: internet connection, wifi
+- :ballot_box_with_check: keyboard (work perfectly as normal keyboard)
+- :ballot_box_with_check: trackpad & external mouse
+- :ballot_box_with_check: screen backlight
+- :ballot_box_with_check: keyboard backlight
+- :ballot_box_with_check: fan
+- :ballot_box_with_check: battery (not best but quite good)
+- :black_square_button: webcam: not tested but someone say it work perfectly with [bcwc-pcie](https://aur.archlinux.org/packages/bcwc-pcie-git/), [more detail here](https://wiki.archlinux.org/index.php/MacBookPro11,x#Web_cam)
+
 
 gathered information and installed Arch on a MacBook:
+
+- [Before you start](#before-you-start)
+  - [Install arch dual boot](#install-arch-dual-boot)
+    - [Make space for Arch](#make-space-for-arch)
+    - [Make installer USB](#make-installer-usb)
+    - [Boot it up](#boot-it-up)
+    - [Connect wifi](#connect-wifi)
+    - [Partition](#partitioning)
+    - [Format & Mount](#format-and-mount)
+    - [Install base packages & generate fstab](#install-base-packages-&-generate-fstab)
+    - [System config](#system-config)
+    - [Install the bootloader](#install-the-bootloader)
+    - [Make arch duo bootable](#make-arch-duo-bootable)
+  - [Install to make arch usable](#install-to-make-arch-usable)
+    - [Set tty default font](#set-tty-default-font)
+    - [Install drivers](#install-drivers)
+    - [Install require packages](#install-require-packages)
+      - [Required packages for display](#required-packages-for-display)
+      - [Required packages for window manager](#required-packages-for-window-manager)
+    - [Keyboard](#keyboard)
+    - [Screen display](#screen-display)
+    - [Window management](#window-management)
+    - [Better network management](#better-network-management)
+    - [Trackpad](#trackpad)
+    - [Sound](#sound)
+    - [Fan](#fan)
+    - [Screen backlight](#screen-backlight)
+    - [Keyboard backlight](#keyboard-backlight)
+    - [Webcam](#webcam)
+  - [Improvement](#improvement)
+    - [Improve DHCP connection speed](#improve-dhcp-connection-speed)
+    - [Turn on firewall](#turn-on-firewall)
+    - [Enable Trim for SSD](#enable-trim-for-ssd)
+    - [Fixing lid closing to suspend](#fixing-lid-closing-to-suspend)
+    - [Power saving for Intel chip](#power-saving-for-intel-chip)
+
 
 Some boot keycodes:
 -------------------
