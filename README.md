@@ -63,6 +63,15 @@ from macbookpro; open terminal
 |2:  |Microsoft Basic Data darkstar   |454.9 GB   |disk0s2|
 |3:  |Linux Filesystem      |45.0 GB |disk0s3|
 
+/dev/disk1 (internal, physical):
+
+|#:  |TYPE NAME                       |SIZE          |IDENTIFIER|
+|--- |---                             |---           |---|
+|0:  |GUID_partition_scheme           |*250.1 GB     |disk1|
+|1:  | EFI EFI                     |209.7 MB      |disk1s1|
+|2:  |Apple_APFS Container disk2   |184.0 GB      |disk1s3|
+|3:  |Microsoft Basic Data OS                |65.8 GB       |disk1s3|
+
 ⚠️Batterry Issue: I'v used arch and artix for couple year on my MBP, everything is fine, smooth, but there is a problem, because OSX is apple stuff, so they make it very well, when using linux on Macbook, you must accept the risk. The only problem i've ever faced is that my battery degrades very quickly.
 
 
