@@ -55,23 +55,14 @@ gathered information and installed Arch on a MacBook:
 from macbookpro; open terminal
 
 ➜ diskutil list
-|Device             |Size            |Type|
-|---                |---             |---|
-|/dev/sda3          |128MB           |Apple HFS+|
-|/dev/sda4          |256MB           |Linux filesystem|
-|/dev/sda5          |16GB            |Linux Swap|
-|/dev/sda6          |64GB            |Linux filesystem|
-
-|Device             |Size            |Type|
-|---                |---             |---|
-|/dev/sda3          |128MB           |Apple HFS+|
-|/dev/sda4          |256MB           |Linux filesystem|
-|/dev/sda5          |16GB            |Linux Swap|
-|/dev/sda6          |64GB            |Linux filesystem|
-
 /dev/disk0 (internal, physical):
+
 |#:  |TYPE NAME                                      |SIZE          |IDENTIFIER|
 |--- |---                                            |---           |---|
+|0:  |GUID_partition_scheme                          |*500.1 GB     |disk0|
+   1:                        EFI NO NAME                 209.7 MB   disk0s1
+   2:       Microsoft Basic Data darkstar                454.9 GB   disk0s2
+   3:           Linux Filesystem                         45.0 GB    disk0s3
 
 
 ⚠️Batterry Issue: I'v used arch and artix for couple year on my MBP, everything is fine, smooth, but there is a problem, because OSX is apple stuff, so they make it very well, when using linux on Macbook, you must accept the risk. The only problem i've ever faced is that my battery degrades very quickly.
