@@ -63,12 +63,8 @@ from macbookpro; open terminal
 |/dev/sda6          |64GB            |Linux filesystem|
 
 /dev/disk0 (internal, physical):
-|#:                 |TYPE NAME              |Size            |Type|
-|0:                 |---                |---             |---|
-|/dev/sda3          |128MB           |Apple HFS+|
-|/dev/sda4          |256MB           |Linux filesystem|
-|/dev/sda5          |16GB            |Linux Swap|
-|/dev/sda6          |64GB            |Linux filesystem|
+|Device             |Size            |Type|
+|#:                 |TYPE NAME                    |SIZE       |IDENTIFIER|
 
 |#:                  |TYPE NAME                    |SIZE       |IDENTIFIER|
    0:      GUID_partition_scheme                        *500.1 GB   disk0
