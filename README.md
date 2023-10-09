@@ -68,6 +68,7 @@ from macbookpro; open terminal
 |/dev/sda4          |256MB           |Linux filesystem|
 |/dev/sda5          |16GB            |Linux Swap|
 |/dev/sda6          |64GB            |Linux filesystem|
+
 |/dev/disk0 (internal, physical):|
 |#:  |TYPE NAME                                      |SIZE          |IDENTIFIER|
 |--- |---                                            |---           |---|
