@@ -22,7 +22,7 @@ Here are some sneak picks of what **Mac** can work:
 ## gathered information and installed Arch on a MacBook:
 
 - [Before you start](#before-you-start)
-  - [Install arch dual boot](#install-arch-dual-boot)
+  - [Install arch triple boot](#install-arch-triple-boot)
     - [Make space for Arch](#make-space-for-arch)
     - [Make installer USB](#make-installer-usb)
     - [Boot it up](#boot-it-up)
@@ -62,7 +62,7 @@ Here are some sneak picks of what **Mac** can work:
 ⚠️Batterry Issue: I'v used arch and artix for couple year on my MBP, everything is fine, smooth, but there is a problem, because OSX is apple stuff, so they make it very well, when using linux on Macbook, you must accept the risk. The only problem i've ever faced is that my battery degrades very quickly.
 
 
-# Install arch dual boot
+# Install arch triple boot
 
 # Make space for Arch
 from macbookpro; open terminal
