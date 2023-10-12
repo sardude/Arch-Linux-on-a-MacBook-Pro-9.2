@@ -107,11 +107,14 @@ dd if=path/to/arch.iso of=/dev/diskX bs==1m
 
 Hold bold `alt/option` when system bootup, then choose boot from USB
 
-:warning: If you are using Retina Macbook, tty font will be very small. To get larger font, [connect to wifi](connect-wifi) and run these commands:
+:warning: get larger font, [connect to wifi](connect-wifi) and run these commands:
 
 ```
 sudo pacman -Sy terminus-font
-setfont /usr/share/kbd/consolefonts/ter-132b.psf.gz
+```
+
+```
+setfont ter-p18n
 ```
 
 ## Connect wifi
