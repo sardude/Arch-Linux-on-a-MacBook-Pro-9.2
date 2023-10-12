@@ -1,6 +1,6 @@
 <h1 align="center">
     <a>
-    <img src="https://cloud.githubusercontent.com/assets/3459374/21679181/46e24706-d34b-11e6-82ee-5efb3d2ba70f.png" width="400">
+    <img src="https://raw.githubusercontent.com/sardude/Arch-Linux-on-a-MacBook-Pro-9.2/main/asset/Pure-Beauty-Macbook-Pro-A1278-running-GNU-Linux_in_2021_the_glow-768x498.jpg" width="400">
   </a>
   <br> macbook pro 9,2  >>  +   +   <br>
 </h1>
