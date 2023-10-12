@@ -27,7 +27,7 @@ gathered information and installed Arch on a MacBook:
     - [Make installer USB](#make-installer-usb)
     - [Boot it up](#boot-it-up)
     - [Connect wifi](#connect-wifi)
-    - [Partition](#partitioning)
+    - [disk](#disk)
     - [Format & Mount](#format-and-mount)
     - [Install base packages & generate fstab](#install-base-packages-&-generate-fstab)
     - [System config](#system-config)
@@ -122,10 +122,7 @@ Use `wifi-menu` then choose wifi to connect, then check connection with:
 ping -c 3 google.com
 ```
 
-## Partition
-
-
-
+## Disk
 <details>
 <summary>Partitions</summary>
 View all your patitions to choose correct one:
@@ -135,24 +132,13 @@ View all your patitions to choose correct one:
 ```
 </details>
 
-```
-use fdisk -list
-```
-
-Open cgdisk with:
-
-```
-cgdisk /dev/sdaX
-```
-
 Create these new partitions:
 
 |Size    |Type              |Description|
 |---     |---               |---        |
-|128MB   |Apple HFS+        |This is required in order to make Arch dual boot with OSX|
-|256MB   |Linux filesystem  |Arch file system|
-|xMB     |Linux Swap        |If you have space, try to make it double size of your ram size|
-|xGB     |Linux filesystem  |This is our home|
+|200MB   |EFI System        |This is required in order to make boot with OSX|
+|423.7G   |Microsoft basic data  |NTFS file system|
+|41.9G     |Linux filesystem       |root|
 
 ## Format and mount
 
