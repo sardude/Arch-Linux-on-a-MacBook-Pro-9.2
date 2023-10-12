@@ -22,12 +22,12 @@ Here are some sneak picks of what **Mac** can work:
 - :ballot_box_with_check: battery (not best but quite good)
 - :black_square_button: webcam: not tested but someone say it work perfectly with [bcwc-pcie](https://aur.archlinux.org/packages/bcwc-pcie-git/), [more detail here](https://wiki.archlinux.org/index.php/MacBookPro11,x#Web_cam)
 
-## gathered information and installed Arch on a MacBook:
+gathered information and installed Arch on a MacBook:
 
-  - [Install arch triple boot](#install-arch-triple-boot)
-    - [Make space for Arch](#make-space-for-arch)
-    - [Make installer USB](#make-installer-usb)
-    - [Boot it up](#boot-it-up)
+- [Install arch triple boot](#install-arch-triple-boot)
+    - [Make space for Arch]
+    - [Make installer USB]
+    - [Boot it up]
     - [Connect wifi](#connect-wifi)
     - [disk](#disk)
     - [Format & Mount](#format-and-mount)
@@ -35,7 +35,7 @@ Here are some sneak picks of what **Mac** can work:
     - [System config](#system-config)
     - [Install the bootloader](#install-the-bootloader)
     - [Make arch triple bootable](#make-arch-triple-bootable)
-  - [Install to make arch usable](#install-to-make-arch-usable)
+- [Install to make arch usable](#install-to-make-arch-usable)
     - [Set tty default font](#set-tty-default-font)
     - [Install drivers](#install-drivers)
     - [Install require packages](#install-require-packages)
@@ -51,7 +51,7 @@ Here are some sneak picks of what **Mac** can work:
     - [Screen backlight](#screen-backlight)
     - [Keyboard backlight](#keyboard-backlight)
     - [Webcam](#webcam)
-  - [Improvement](#improvement)
+- [Improvement](#improvement)
     - [Improve DHCP connection speed](#improve-dhcp-connection-speed)
     - [Turn on firewall](#turn-on-firewall)
     - [Enable Trim for SSD](#enable-trim-for-ssd)
@@ -62,8 +62,8 @@ Here are some sneak picks of what **Mac** can work:
 # Install arch triple boot
 <details>
   <summary>Install arch triple boot</summary>  
-# Make space for Arch
-from macbookpro; open terminal
+    # Make space for Arch
+    from macbookpro; open terminal
 
 ➜ diskutil list
 
