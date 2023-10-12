@@ -4,7 +4,6 @@
   </a>
   <br> macbook pro 9,2  >>  +   +   <br>
 </h1>
- <br> macbook pro 9,2  >>  +   +   <br>
 
 ## ✨ Features
 
