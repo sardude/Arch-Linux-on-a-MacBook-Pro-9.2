@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://github.com/spaceship-prompt/spaceship-prompt">
+    <a>
     <img src="https://cloud.githubusercontent.com/assets/3459374/21679181/46e24706-d34b-11e6-82ee-5efb3d2ba70f.png" width="400">
   </a>
   <br> macbook pro 9,2  >>  +   +   <br>
