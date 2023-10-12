@@ -32,7 +32,7 @@ Here are some sneak picks of what **Mac** can work:
     - [Install base packages & generate fstab](#install-base-packages-&-generate-fstab)
     - [System config](#system-config)
     - [Install the bootloader](#install-the-bootloader)
-    - [Make arch duo bootable](#make-arch-duo-bootable)
+    - [Make arch triple bootable](#make-arch-triple-bootable)
   - [Install to make arch usable](#install-to-make-arch-usable)
     - [Set tty default font](#set-tty-default-font)
     - [Install drivers](#install-drivers)
@@ -127,7 +127,7 @@ Use `wifi-menu` then choose wifi to connect, then check connection with:
 ping -c 3 google.com
 ```
 
-## Disk
+# Disk
 <details>
 <summary>Partitions</summary>
 Assuming you have this when run `fdisk -l`:
@@ -143,7 +143,7 @@ Assuming you have this when run `fdisk -l`:
 
 </details>
 
-## Format and mount
+# Format and mount
 <details>
 <summary>format</summary>
 Now let format and mount partition:
@@ -167,7 +167,7 @@ mkdir /mnt/boot && mount /dev/sda4 /mnt/boot
 </details>
 
 
-## Install base packages & generate fstab
+# Install base packages & generate fstab
 
 Run these commands:
 
@@ -189,7 +189,7 @@ If you are using ssd, remove all discard in all lines, and make sure it look lik
 /dev/sda6   /       ext4   defaults,noatime,data=writeback   0 1
 ```
 
-## System config
+# System config
 
 ```
 arch-chroot /mnt /bin/bash
@@ -267,7 +267,7 @@ exit
 reboot
 ```
 
-## Make arch duo bootable
+# Make arch triple bootable
 
 When OSX loaded. Using Disk Utility to format `/dev/sda3` (128MB HFS+ we have created before) with Journaled format.
 
