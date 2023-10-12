@@ -1,10 +1,9 @@
 <h1 align="center">
-  <a href="https://github.com/spaceship-prompt/spaceship-prompt">
-    <img alt="spaceship →~ prompt" src="https://cloud.githubusercontent.com//asset/Pure-Beauty-Macbook-Pro-A1278-running-GNU-Linux_in_2021_the_glow-768x498.jpg" width="400">
+    <img src="https://cloud.githubusercontent.com/asset/Pure-Beauty-Macbook-Pro-A1278-running-GNU-Linux_in_2021_the_glow-768x498.jpg]" width="400">
   </a>
   <br> macbook pro 9,2  >>  +   +   <br>
 </h1>
-https://github.com/sardude/Arch-Linux-on-a-MacBook-Pro-9.2/blob/main/asset/Pure-Beauty-Macbook-Pro-A1278-running-GNU-Linux_in_2021_the_glow-768x498.jpg
+
 - :ballot_box_with_check: display
 - :ballot_box_with_check: audio
 - :ballot_box_with_check: internet connection, wifi
