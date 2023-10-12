@@ -436,7 +436,6 @@ export GDK_DPI_SCALE=0.5
 
 # Finally start i3wm
 exec i3
-```
 
 For multiple display view [this](https://www.reddit.com/r/archlinux/comments/b8wuai/beginner_needs_help_setting_and_scaling_xrandr/)
 
@@ -595,7 +594,9 @@ kbdlight up [<percentage>]|down [<percentage>]|off|max|get|set <value>
 https://github.com/aur-packages/bcwc-pcie-git
 </details>
 
-##Improvement
+#improvement
+<details>
+  <summary>improvement</summary>  
 
 ## Improve DHCP connection speed
 
@@ -659,7 +660,7 @@ Mine is MJLQ2 so set this
 max_freq="2.2GHz"
 ```
 
-
+</details>
 
 
 
