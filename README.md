@@ -1,6 +1,4 @@
 <h1 align="center">
-    <img src="https://cloud.githubusercontent.com/asset/Pure-Beauty-Macbook-Pro-A1278-running-GNU-Linux_in_2021_the_glow-768x498.jpg]" width="400">
-  </a>
   <br> macbook pro 9,2  >>  +   +   <br>
 </h1>
 
