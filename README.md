@@ -437,7 +437,7 @@ export GDK_DPI_SCALE=0.5
 # Finally start i3wm
 exec i3
 ```
-</details>
+
 For multiple display view [this](https://www.reddit.com/r/archlinux/comments/b8wuai/beginner_needs_help_setting_and_scaling_xrandr/)
 
 ## Window management
@@ -593,8 +593,9 @@ kbdlight up [<percentage>]|down [<percentage>]|off|max|get|set <value>
 ## Webcam
 
 https://github.com/aur-packages/bcwc-pcie-git
+</details>
 
-# Improvement
+##Improvement
 
 ## Improve DHCP connection speed
 
