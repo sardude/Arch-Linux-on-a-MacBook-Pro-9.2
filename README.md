@@ -305,8 +305,11 @@ sudo bless --device /dev/disk0s4 --setBoot
 Now when reboot and welcome to arch world :hearts:
 
 # Install to make arch usable
+<details>
+  <summary>Install to make arch usable</summary>  
 
-## Set tty default font
+
+# Set tty default font
 
 :warning: Font in retina screen is very small, so this maybe the first step you do after install arch. If you can see the font clearly, you don't have to do this step.
 
@@ -324,7 +327,7 @@ Install these default fonts (to make browser look suckless):
 yay -S ttf-dejavu ttf-linux-libertine ttf-mac-fonts ttf-ms-fonts ttf-opensans ttf-ubuntu-font-family ttf-symbola
 ```
 
-## Install drivers
+# Install drivers
 
 ```
 sudo pacman -S xf86-video-intel xf86-input-libinput mesa
@@ -434,7 +437,7 @@ export GDK_DPI_SCALE=0.5
 # Finally start i3wm
 exec i3
 ```
-
+</details>
 For multiple display view [this](https://www.reddit.com/r/archlinux/comments/b8wuai/beginner_needs_help_setting_and_scaling_xrandr/)
 
 ## Window management
