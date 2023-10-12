@@ -2,7 +2,7 @@
   <a href="https://github.com/spaceship-prompt/spaceship-prompt">
     <img alt="spaceship →~ prompt" src="https://cloud.githubusercontent.com/assets/3459374/21679181/46e24706-d34b-11e6-82ee-5efb3d2ba70f.png" width="400">
   </a>
-  <br>  +   +  >> macbook pro 9,2 <br>
+  <br> macbook pro 9,2   +   +   <br>
 </h1>
 
 - :ballot_box_with_check: display
