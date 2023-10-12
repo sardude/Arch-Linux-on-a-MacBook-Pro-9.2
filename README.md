@@ -61,7 +61,7 @@ Here are some sneak picks of what **Mac** can work:
 
 # Install arch triple boot
 <details>
-  <summary>Install arch</summary>  
+  <summary>Install arch triple boot</summary>  
 # Make space for Arch
 from macbookpro; open terminal
 
