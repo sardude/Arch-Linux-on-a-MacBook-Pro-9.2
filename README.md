@@ -5,6 +5,9 @@
   <br> macbook pro 9,2  >>  +   +   <br>
 </h1>
 
+
+## ✨ Features
+Here are some sneak picks of what **Mac** can work:
 - :ballot_box_with_check: display
 - :ballot_box_with_check: audio
 - :ballot_box_with_check: internet connection, wifi
@@ -121,7 +124,16 @@ ping -c 3 google.com
 
 ## Partition
 
-View all your patitions to choose correct one
+
+
+<details>
+<summary>Partitions</summary>
+View all your patitions to choose correct one:
+
+```zsh title="Terminal"
+ fdisk -list
+```
+</details>
 
 ```
 use fdisk -list
