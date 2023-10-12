@@ -19,7 +19,7 @@ Here are some sneak picks of what **Mac** can work:
 - :ballot_box_with_check: battery (not best but quite good)
 - :black_square_button: webcam: not tested but someone say it work perfectly with [bcwc-pcie](https://aur.archlinux.org/packages/bcwc-pcie-git/), [more detail here](https://wiki.archlinux.org/index.php/MacBookPro11,x#Web_cam)
 
-gathered information and installed Arch on a MacBook:
+## gathered information and installed Arch on a MacBook:
 
 - [Before you start](#before-you-start)
   - [Install arch dual boot](#install-arch-dual-boot)
@@ -64,7 +64,7 @@ gathered information and installed Arch on a MacBook:
 
 # Install arch dual boot
 
-## Make space for Arch
+# Make space for Arch
 from macbookpro; open terminal
 
 ➜ diskutil list
@@ -93,7 +93,7 @@ Use Disk Utility Partition feature to add new Partition for Arch, follow [this g
 Or if you already know how to use Disk Utility, then create a partition with FAT32 format.
 
 
-## Make installer USB
+# Make installer USB
 
 Download arch's iso [here](https://www.archlinux.org/download/)
 
@@ -105,7 +105,7 @@ diskutil unmountDisk /dev/diskX
 dd if=path/to/arch.iso of=/dev/diskX bs==1m
 ```
 
-## Boot it up
+# Boot it up
 
 Hold bold `alt/option` when system bootup, then choose boot from USB
 
@@ -119,7 +119,7 @@ sudo pacman -Sy terminus-font
 setfont ter-p18n
 ```
 
-## Connect wifi
+# Connect wifi
 
 Use `wifi-menu` then choose wifi to connect, then check connection with:
 
