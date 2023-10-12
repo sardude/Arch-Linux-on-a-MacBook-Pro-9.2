@@ -125,42 +125,42 @@ ping -c 3 google.com
 ## Disk
 <details>
 <summary>Partitions</summary>
-View all your patitions to choose correct one:
+Assuming you have this when run `fdisk -l`:
 
 ```zsh title="Terminal"
  fdisk -list
 ```
-</details>
-
-Create these new partitions:
-
 |Size    |Type              |Description|
 |---     |---               |---        |
 |200MB   |EFI System        |This is required in order to make boot with OSX|
 |423.7G   |Microsoft basic data  |NTFS file system|
 |41.9G     |Linux filesystem       |root|
 
+</details>
+
 ## Format and mount
-
-Assuming you have this when run `fdisk -l`:
-
-|Device             |Size            |Type|
-|---                |---             |---|
-|/dev/sda3          |128MB           |Apple HFS+|
-|/dev/sda4          |256MB           |Linux filesystem|
-|/dev/sda5          |16GB            |Linux Swap|
-|/dev/sda6          |64GB            |Linux filesystem|
-
+<details>
+<summary>format</summary>
 Now let format and mount partition:
+    
+```zsh title="Terminal"
+ mkfs.ext4 /dev/sda4
+```
+</details>
 
+<details>
+<summary>mount</summary>
+Now let format and mount partition:
+    
+```zsh title="Terminal"
+mount /dev/sda /mnt
 ```
-mkfs.ext4 /dev/sda4
-mkswap /dev/sda5
-mkfs.ext4 /dev/sda6
-mount /dev/sda6 /mnt
+
+```zsh title="Terminal"
 mkdir /mnt/boot && mount /dev/sda4 /mnt/boot
-swapon /dev/sda5
 ```
+</details>
+
 
 ## Install base packages & generate fstab
 
