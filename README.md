@@ -57,6 +57,14 @@ gathered information and installed Arch on a MacBook:
     - [Power saving for Intel chip](#power-saving-for-intel-chip)
 
 # Before you start
+
+
+⚠️Batterry Issue: I'v used arch and artix for couple year on my MBP, everything is fine, smooth, but there is a problem, because OSX is apple stuff, so they make it very well, when using linux on Macbook, you must accept the risk. The only problem i've ever faced is that my battery degrades very quickly.
+
+
+# Install arch dual boot
+
+## Make space for Arch
 from macbookpro; open terminal
 
 ➜ diskutil list
@@ -79,12 +87,6 @@ from macbookpro; open terminal
 |2:  |Apple_APFS Container disk2   |184.0 GB      |disk1s3|
 |3:  |Microsoft Basic Data OS                |65.8 GB       |disk1s3|
 
-⚠️Batterry Issue: I'v used arch and artix for couple year on my MBP, everything is fine, smooth, but there is a problem, because OSX is apple stuff, so they make it very well, when using linux on Macbook, you must accept the risk. The only problem i've ever faced is that my battery degrades very quickly.
-
-
-# Install arch dual boot
-
-## Make space for Arch
 
 Use Disk Utility Partition feature to add new Partition for Arch, follow [this guide](https://wiki.archlinux.org/index.php/Mac#Arch_Linux_with_OS_X_or_other_operating_systems)
 
