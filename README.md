@@ -58,7 +58,7 @@ gathered information and installed Arch on a MacBook:
     - [Power saving for Intel chip](#power-saving-for-intel-chip)
 
 
-# Install arch triple boot
+Install arch triple boot
 <details>
   <summary>Install arch triple boot</summary>  
     # Make space for Arch
